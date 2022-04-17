@@ -1,3 +1,8 @@
+Steps:
+- install the QMK MSYS because Windows; this just doesn't work properly otherwise
+- flash the keyboard build with `qmk flash -kb handwired/dowhiletrue -km default`
+- switch "flash" to "build" if you just want to confirm it builds
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
